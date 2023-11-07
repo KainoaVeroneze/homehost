@@ -1,0 +1,80 @@
+/*general*/
+:root
+
+body,textarea{
+    margin: 0;
+    padding: 0;
+    font-family:"montserrat" , Arial, Helvetica, sans-serif;
+
+}
+h1,h2,h3{
+    color: #333;
+}
+
+/*navbar*/
+.navbar-container{
+    width: 100%;
+    background-color: #232a31;
+    height: 80px;
+    padding: 0 2em;
+    position: relative;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    margin-top: 15px;
+}
+nav{
+    position: relative;
+}
+.navbar-items{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    margin: 0;
+    line-height: 80px;
+}
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.navbar-items li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 5s;
+}
+.navbar-items li a:hover{
+    color: rgb(0, 26, 255);
+}
+.default-btn{
+    padding: 15px 20px;
+    background-color: rgb(10, 214, 180);
+    border-radius: 5px 20px 5px 20px;
+}
+.main-banner {
+    background-image:url(./../img/mainbanner.png);
+    background-size:cover;
+    padding: 10em 0;
+    background-position:center;
+    text-align: center;
+    
+}
+.main-banner h1, .main-banner p {
+    color: #fff;
+    font-weight: bold;
+}
+.main-banner h1{
+    font-size: 54px;
+}
+.main-banner p{
+    font-size: 32px;
+}
+.specialties-container {
+    padding: 5em 0;
+}
+.specialties-container ul{
+    display: flex;
+    flex-direction: 90%;
+    flex-wrap: 0 auto;
+}
